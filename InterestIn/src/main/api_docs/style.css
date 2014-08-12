@@ -1,0 +1,70 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+#wrap {
+    height: 100%;
+    width: 980px;
+    margin: 0 auto;
+}
+
+h2 {
+    color : #34538f;
+    margin: 0;
+}
+
+section {
+    margin-top : 50px;
+}
+
+section p {
+    color : #b0b0b0;
+    margin: 0;
+}
+
+section ul {
+    list-style: none;
+    margin-left: 0;
+    -webkit-padding-start: 0px;
+}
+
+ul li {
+    overflow: hidden;
+    border-top : 1px solid #b0b0b0;
+    padding: 12px 0;
+}
+
+ul li:last-child {
+    border-bottom: 1px solid #b0b0b0;
+}
+
+.left {
+    width: 40%;
+    float: left;
+}
+
+.right {
+    width: 60%;
+    float: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.activity-name{
+    color: #34538f;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    clear: left;
+}
+
+.url {
+    font-size: 14px;
+    display: block;
+    float: left;
+    clear: left;
+}

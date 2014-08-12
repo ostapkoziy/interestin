@@ -1,0 +1,14 @@
+node_modules
+dist
+test/temp
+.sass-cache
+app/bower_components
+.tmp
+test/bower_components/
+nbproject
+*.sublime-project
+*.sublime-workspace
+/api/assets/*
+/api/protected/runtime/*
+!/api/assets/index.php
+!/api/protected/runtime/index.php

@@ -1,0 +1,120 @@
+.rotate{
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+
+    overflow:hidden;
+
+    }
+
+.rotate-forward
+{
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+}
+
+.rotate-back
+{
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+}
+
+.loader {
+    background-image: url(../images/ajax-loader.gif);
+    width: rem-calc(64);
+    height: rem-calc(64);
+    margin: rem-calc(30) auto;
+}
+
+.button-main {
+    @include button($button-med, #B0B0B0);
+}
+
+.button-action {
+    @include button($button-med, $mainColor);
+}
+
+.back-button {
+    border: solid 1px darken( $secondColor,30% );
+    position: relative;
+    display: block;
+    height:42px;
+    width:42px;
+    margin: 0 auto;
+    -moz-border-radius:42px;
+    -webkit-border-radius:42px;
+
+    i {
+        color: darken( $secondColor,30% );
+        position: absolute;
+        left: 13px;
+        top: 3px;
+    }
+
+    &:hover {
+        border-color: #8d8d8d;
+        i {
+            color: #8d8d8d;
+        }
+    }
+}
+
+@media #{$medium-only} {
+    #menu {
+        @include box-shadow(5px 5px 16px #cecece);
+        position: absolute;
+        left: 0;
+        top: 60px;
+        z-index: 9999;
+        width: 280px;
+        padding-left: 0;
+        padding-right: 0;
+
+        visibility: hidden;
+
+        &.show {
+            display: block !important;
+            visibility: visible !important;
+        }
+    }
+
+    .bar-menu {
+        display: block !important;
+    }
+}
+
+@media #{$small-only} {
+    #menu {
+        @include box-shadow(5px 5px 16px #cecece);
+        position: absolute;
+        left: 0;
+        top: 60px;
+        z-index: 9999;
+        width: 280px;
+        padding-left: 0;
+        padding-right: 0;
+
+        visibility: hidden;
+
+        &.show {
+            display: block !important;
+            visibility: visible !important;
+        }
+    }
+
+    .bar-menu {
+        display: block !important;
+    }
+
+    #navigation .logo {
+        font-size: rem-calc(25);
+    }
+}

@@ -1,0 +1,15 @@
+<div id="dialog" class="reveal-modal {{type}}" data-reveal>
+    {{#if title}}<h4>{{unescape title}}</h4>{{/if}}
+    <div data-alert="" class="alert-box alert warning"></div>
+    <p class="dialog-body">{{body}}</p>
+    {{#if loader}}
+    <div class="loader"></div>
+    {{/if}}
+    <div class="content"></div>
+    <a class="close-reveal-modal">&#215;</a>
+    <div class="buttons">
+        {{#unless confirmOnly}} <a href="#" class="button secondary cancel">{{cancelButtonText}}</a>{{/unless}}
+        {{#if customButton}} <button class="{{customButton.class}}" id="{{customButton.id}}">{{customButton.text}}</button>{{/if}}
+        <a href="#{{confirmButtonUrl}}" target="{{confirmButtonTarget}}" class="button-confirm confirm">{{confirmButtonText}}</a>
+    </div>
+</div>

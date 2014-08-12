@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries>
+	<country key="ukraine" disabled="false">
+		<city key="cherkasy" disabled="false" />
+		<city key="сhernihiv" disabled="false" />
+		<city key="chernivtsi" disabled="false" />
+		<city key="crimea" disabled="false" />
+		<city key="dnipropetrovsk" disabled="false" />
+		<city key="donetsk" disabled="false" />
+		<city key="ivano-frankivsk" disabled="false" />
+		<city key="kiev" disabled="false" />
+		<city key="kirovohrad" disabled="false" />
+		<city key="kharkiv" disabled="false" />
+		<city key="kherson" disabled="false" />
+		<city key="khmelnytsky" disabled="false" />
+		<city key="luhansk" disabled="false" />
+		<city key="lviv" disabled="false" />
+		<city key="mykolaiv" disabled="false" />
+		<city key="odessa" disabled="false" />
+		<city key="poltava" disabled="false" />
+		<city key="rivne" disabled="false" />
+		<city key="sumy" disabled="false" />
+		<city key="ternopil" disabled="false" />
+		<city key="vinnytsia" disabled="false" />
+		<city key="lutsk" disabled="false" />
+		<city key="uzhhorod" disabled="false" />
+		<city key="zaporizhia" disabled="false" />
+		<city key="zhytomyr" disabled="false" />
+	</country>
+</countries>

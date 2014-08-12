@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hobbies>
+	<hobby key="music" disabled="false">
+		<hobby key="rock" category="genre" disabled="false" />
+		<hobby key="rap" category="genre" disabled="false" />
+		<hobby key="pop" category="genre" disabled="false" />
+		<hobby key="jazz" category="genre" disabled="false" />
+		<hobby key="guitar" category="instrument" disabled="false" />
+		<hobby key="drums" category="instrument" disabled="false" />
+		<hobby key="piano" category="instrument" disabled="false" />
+		<hobby key="violin" category="instrument" disabled="false" />
+	</hobby>
+	<hobby key="sport" disabled="false">
+		<hobby key="football" category="game" disabled="false" />
+		<hobby key="basketball" category="game" disabled="false" />
+		<hobby key="volleybal" category="game" disabled="false" />
+		<hobby key="chess" category="game" disabled="false" />
+	</hobby>
+</hobbies>
